@@ -93,3 +93,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: goimports-reviser
+    name: 'goimports-reviser'
+    entry: run-goimports-reviser.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `goimports-reviser`, requires golang"
