@@ -30,6 +30,7 @@ Add this to your `.pre-commit-config.yaml`
         - id: go-build
         - id: go-mod-tidy
         - id: goimports-reviser
+        - id: govulncheck
 
 ### Available hooks
 
@@ -50,3 +51,4 @@ Add this to your `.pre-commit-config.yaml`
 - `go-mod-tidy` - run `go mod tidy -v`, requires golang
 - `go-mod-vendor` - run `go mod vendor`, requires golang
 - `goimports-reviser` - Runs `goimports-reviser`, requires https://github.com/incu6us/goimports-reviser
+- `govulncheck` - Runs `govulncheck`, requires [https://github.com/golang/vuln](https://github.com/golang/vuln)
