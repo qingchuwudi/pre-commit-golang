@@ -99,3 +99,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `goimports-reviser`, requires golang"
+-   id: govulncheck
+    name: 'govulncheck'
+    entry: run-govulncheck.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `govulncheck`, requires golang"
