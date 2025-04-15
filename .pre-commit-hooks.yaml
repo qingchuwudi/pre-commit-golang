@@ -105,3 +105,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `govulncheck`, requires golang"
+-   id: gomodernize
+    name: 'gomodernize'
+    entry: run-gomodernize.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `gomodernize`, requires golang"

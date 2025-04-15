@@ -52,3 +52,4 @@ Add this to your `.pre-commit-config.yaml`
 - `go-mod-vendor` - run `go mod vendor`, requires golang
 - `goimports-reviser` - Runs `goimports-reviser`, requires https://github.com/incu6us/goimports-reviser
 - `govulncheck` - Runs `govulncheck`, requires [https://github.com/golang/vuln](https://github.com/golang/vuln)
+- `modernize` - Runs `modernize`, requires [golang.org/x/tools/gopls/internal/analysis/modernize/cmd/modernize@latest](golang.org/x/tools/gopls/internal/analysis/modernize/cmd/modernize)
